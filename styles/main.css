@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-image: url('../assets/dinossaur.jpg');
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5ee;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.image {
+  width: 600px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.lists-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#right-list li {
+  color: #08313A;
+  font-weight: bold;
+}
